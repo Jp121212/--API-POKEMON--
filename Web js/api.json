@@ -1,0 +1,37 @@
+{
+  "departamentos": [
+    {
+      "id": 1,
+      "nombre": "Eloquent JavaScript",
+      "version": 5,
+      "paginas": 250,
+      "categoria": "Engineering",
+      "idioma": "English",
+      "premios": 4,
+      "publicadora": "oquweouyr",
+      "precio": 45
+    },
+    {
+      "id": 2,
+      "nombre": "Asd JavaScript",
+      "version": 5,
+      "paginas": 60,
+      "categoria": "Engineering",
+      "idioma": "English",
+      "premios": 0,
+      "publicadora": "cxcxcxcxxc",
+      "precio": 55
+    },
+    {
+      "id": 3,
+      "nombre": "poiupoiqwroqiuerouqw JavaScript",
+      "version": 4,
+      "paginas": 150,
+      "categoria": "Engineering",
+      "idioma": "English",
+      "premios": 1,
+      "publicadora": "tnytntnttn",
+      "precio": 0
+    }
+  ]
+}

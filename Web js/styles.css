@@ -1,0 +1,609 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body { 
+    margin: 0;
+    font-family: 'Press Start 2P', cursive;
+  }
+.header1 {
+    overflow: hidden;
+    background-color: #000000;
+    height: 120px;
+    
+    
+  }
+  
+  .header1 a {
+    float: right;
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px; 
+    border-radius: 4px;
+    padding: 30px;
+    margin-top: 25px;
+    width: 100px;
+   
+  
+  }
+.color1:hover { background-color:rgb(255, 0, 0); }
+.color2:hover { background-color:rgb(247, 232, 34);color: #000000; }
+.color3:hover { background-color:green; }
+  
+  
+  
+  
+  
+  
+  @media screen and (max-width:  600px) {
+    .header1 a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    
+  .header1-izq {
+      float: none;
+    }}
+ 
+  .logo{
+    display: inline;
+    float: left;
+    height: 100px;
+    margin-top: 10px;
+    width: 110px;
+    margin-left: 10px;
+  
+    
+  }
+
+  .pokedex{
+      font-family:'Press Start 2P', cursive;
+      float: left;
+      color: azure;
+      margin-left: 20px;
+      margin-top: 40px;
+      font-size: 45px;
+  }
+
+  
+ .Pruebadiv{
+    
+
+     height: 980px;
+     width: 800px;
+     
+
+     
+ }
+
+ .Pruebadiv2{
+  
+    width: 700px;
+    height: 888px;
+    margin-top: 140px;
+   
+ }
+ 
+ .flex{
+     display: flex;
+     justify-content: center;
+    
+     margin-top: 120px;
+     height: 1200px;
+ }
+
+ .cuadrorojo{
+     background-image: url(https://www.publicdomainpictures.net/pictures/140000/nahled/red-background-1446636658CLK.jpg);
+     height: 200px;
+     display: flex;
+     border: 1px #000000 solid;
+     background-size: cover;
+     border-top-left-radius: 20px;
+     border-top-right-radius: 20px;
+ }
+ 
+ .circulocele{
+     border: 1px solid rgb(0, 0, 0);
+     background-image: url(https://img.freepik.com/vector-gratis/fondo-abstracto-celeste_1077-3.jpg?w=2000);
+     box-shadow: inset 0 0 0 3px rgb(255, 255, 255);
+     width: 120px;
+     height: 120px;
+     margin-top: 40px;
+     margin-left: 40px;
+     background-size: cover;
+     -moz-border-radius: 60px;
+     -webkit-border-radius: 60px;
+     border-radius: 60px;
+     
+ }
+
+ .circulorojo{
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url(https://previews.123rf.com/images/fightingfear/fightingfear1611/fightingfear161100071/67913458-luz-roja-brillante-sobre-fondo-brillante-ilustraci%C3%B3n-vectorial.jpg);
+    
+    width: 20px;
+    height: 20px;
+    margin-top: 40px;
+    margin-left: 10px;
+    background-size: cover;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+ }
+
+ .circulorojopan{
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url(https://previews.123rf.com/images/fightingfear/fightingfear1611/fightingfear161100071/67913458-luz-roja-brillante-sobre-fondo-brillante-ilustraci%C3%B3n-vectorial.jpg);
+    width: 15px;
+    height: 15px;
+    margin-top: 2px;    
+    margin-left: 20px;
+    background-size: cover;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+ }
+ .circuloama{
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url(https://previews.123rf.com/images/rudall30/rudall301410/rudall30141000019/32599397-ilustraci%C3%B3n-de-la-luz-amarilla-estall%C3%B3-como-fondo.jpg);
+    width: 20px;
+    height: 20px;
+    margin-top: 40px;
+    margin-left: 15px;
+    background-size: cover;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+ }
+ .circuloverde{
+    border:1px solid rgb(0, 0, 0);
+    background-image: url(https://previews.123rf.com/images/amadeus542/amadeus5421603/amadeus542160300348/53863681-explosi%C3%B3n-de-la-luz-verde-con-fondo-claro-y-brillante.jpg);
+    
+    width: 20px;
+    height: 20px;
+    margin-top: 40px;
+    margin-left: 15px;
+    background-size: cover;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+ }
+
+  .cuadrorojo2{
+     background-image: url(https://www.publicdomainpictures.net/pictures/140000/nahled/red-background-1446636658CLK.jpg);
+     height: 640px;
+     display: flex;
+     border-left: 1px #000000 solid;
+     border-right: 1px #000000 solid;
+     background-size: cover;
+ }
+
+ .cuadrorojo3{
+    background-image: url(https://www.publicdomainpictures.net/pictures/140000/nahled/red-background-1446636658CLK.jpg);
+    height: 200px;
+    display: flex;
+    border:  1px #000000 solid;
+    background-size: cover;
+    border-bottom-left-radius: 20px;
+   
+}
+
+.pantalla{
+    border: 1px #000000 solid;
+    height: 595px;
+    width: 740px;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 10px;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 25px rgb(255, 255, 255);
+}
+
+.pantallaint{
+    overflow-y: scroll;
+    white-space: nowrap; 
+   
+    white-space: nowrap;
+    border: 1px #000000 solid;
+    height: 548px;
+    width: 690px;
+    margin-top: 22px;
+    margin-left: 22px;
+    margin-right: 22px;  
+    background-size: cover;
+    border-radius: 10px;
+    background-color: #000000;
+}
+
+.minibotonnegro{
+    margin-top: 5px;
+    height: 3px;
+    width: 30px;
+    margin-right: 25px;
+    border: 1px #000000 solid;
+    float: right;
+    border-radius: 10px;
+    background-color: #000000;
+}
+
+.circulonegro{
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url(https://i.pinimg.com/originals/67/10/d8/6710d895597099e161d070aedcc35542.jpg);
+    width: 80px;
+    height: 80px;
+    margin-top: 30px;
+    margin-left: 40px;
+    background-size: cover;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+ }
+
+ .botonesinf{
+   height: 100px;
+   width: 150px;
+   margin-left: 60px;
+   margin-top: 10px;
+   float: right;
+ }
+
+ .flex1{
+     display: flex;
+     margin-top: 10px;
+ }
+
+ .red{
+     
+     width: 60px;
+     height: 15px;
+     border-radius: 10px;
+     background-color: red;
+     border: 1px #000000 solid;
+     
+ }
+ .blue{
+
+    width: 60px;
+    margin-left: 15px;
+    height: 15px;
+    border-radius: 10px;
+    background-image: url(https://fondosmil.com/fondo/39906.jpg);
+    border:1px  #000000 solid;
+    margin-left: 20px;
+}
+
+.green{
+    width: 200px;
+    height: 120px;
+    border-radius: 10px;
+    background-color: rgb(10, 255, 43);
+    border: 1px #000000 solid;
+    margin-left: 7px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.cuadrocruz{
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 260px;
+}
+
+#cruz{
+    background-image: url(https://i.pinimg.com/originals/67/10/d8/6710d895597099e161d070aedcc35542.jpg);
+    height: 120px;
+    position: relative;
+    width: 40px;
+    margin: auto;
+    border-radius: 2px;
+    
+}
+
+#cruz::after{
+    background-image: url(https://i.pinimg.com/originals/67/10/d8/6710d895597099e161d070aedcc35542.jpg);
+    content: '';
+    height: 40px;
+    left: -40px;
+    top: 40px;
+    position: absolute;
+    width: 120px;
+    border-radius: 2px;
+}
+
+.cuadroderecha{
+ background-image: url(https://www.publicdomainpictures.net/pictures/140000/nahled/red-background-1446636658CLK.jpg);
+    height: 903px;
+    display: flex;
+    border-top: #000000 solid 1px;
+    border-right: #000000 solid 1px;
+    border-bottom: #000000 solid 1px;
+    background-size: cover;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.Pantallainfo{
+    margin-top: 80px;
+    
+    margin-left: 40px;
+    height: 800px;
+    width: 615px;
+    
+}
+
+.detalle1{
+    height: 95px;
+    width: 615px;
+    
+}
+
+.normal{
+    display: block;
+}
+
+.detalle{
+    height: 590px;
+    width: 615px;
+    border:1px #000000 solid;
+    background-image: url(https://img.freepik.com/foto-gratis/iluminacion-superior-central-suave-fondo-pantalla-azul-celeste_148157-149.jpg);
+    border-radius: 10px;
+    background-size: cover;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: 10px;
+    color: #000000;
+    
+}
+
+.cuadronegro{
+    border-radius: 5px;
+    background-image: url(https://i.pinimg.com/originals/67/10/d8/6710d895597099e161d070aedcc35542.jpg);
+    height: 70px;
+    width: 170px;
+    float: right;
+    margin-top: 10px;
+
+}
+
+.cuadronegro1{
+    border-radius: 5px;
+    background-image: url(https://i.pinimg.com/originals/67/10/d8/6710d895597099e161d070aedcc35542.jpg);
+    height: 70px;
+    width: 170px;
+   
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+.cuadroadc{
+    border-radius: 5px;
+    border: #000000 solid 1px;
+    background-image: url(data:image/jpeg;base64,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);
+    height: 80px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.minibotonnegro1{
+    margin-top: 5px;
+    height: 10px;
+    width: 30px;
+    margin-left: 10px;
+    border: 1px #000000 solid;
+    float: right;
+    border-radius: 10px;
+    background-color: #000000;
+}
+
+.cuadrofinal{
+    width: 100px;
+    height: 100px;
+
+    margin-left: 160px;
+}
+
+.luzamarilla{
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url(https://previews.123rf.com/images/rudall30/rudall301410/rudall30141000019/32599397-ilustraci%C3%B3n-de-la-luz-amarilla-estall%C3%B3-como-fondo.jpg);
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+    margin-right: 10px;
+    float: right;
+    background-size: cover;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+  .elementContainer{
+    padding: 12px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding-top: 0px;
+    height: 200px;
+    color: rgb(0, 0, 0);
+    border: 1px #000000 solid;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 610px;
+    background-color: white;
+  }
+
+  .img{
+    display: inline;
+    float: left;
+    height: 190px;
+    margin-top: 10px;
+    width: 180px;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 10px;
+  }
+
+  
+.footer-distributed{
+    background-color: #000000;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    background-size: cover;
+    width: 100%;
+    text-align: left;
+    font: bold 16px;
+    padding: 55px 50px;
+    margin-top: 35px;
+   
+  }
+  
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right{
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  
+  
+  .footer-distributed .footer-left{
+    width: 40%;
+  }
+  
+  
+  
+  
+  
+  
+  
+  .footer-distributed .footer-links{
+    color:  #ff0000;
+    margin: 20px 0 12px;
+    padding: 0;
+  }
+  
+  .footer-distributed .footer-links a{
+    display:inline-block;
+    line-height: 1.8;
+    font-weight:400;
+    text-decoration: none;
+    color:  inherit;
+  }
+  
+  .footer-distributed .footer-company-name{
+    color:  rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  
+  
+  .footer-distributed .footer-center{
+    width: 35%;
+  }
+  
+  .footer-distributed .footer-center i{
+    background-color:  #ffffff;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+  }
+  
+  .footer-distributed .footer-center i.fa-envelope{
+    font-size: 17px;
+    line-height: 38px;
+  }
+  
+  .footer-distributed .footer-center p{
+    display: inline-block;
+    color: #ffffff;
+    font-weight:400;
+    vertical-align: middle;
+    margin:0;
+  }
+  
+  .footer-distributed .footer-center p span{
+    display:block;
+    font-weight: normal;
+    font-size:14px;
+    line-height:2;
+  }
+  
+  .footer-distributed .footer-center p a{
+    color:  rgb(255, 255, 255);
+    text-decoration: none;;
+  }
+  
+  .footer-distributed .footer-links a:before {
+    content: "|";
+    font-weight:300;
+    font-size: 20px;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+  }
+  
+  .footer-distributed .footer-right{
+    width: 20%;
+    color: #fff;
+  }
+  
+  .footer-distributed .footer-company-about{
+    line-height: 20px;
+    color:  #ffffff;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  .footer-distributed .footer-company-about span{
+    display: block;
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .descripcion{
+    word-wrap: break-word;
+    color:violet
+  }
+
+  .img1{
+    height: 190px;
+    margin-top: 20px;
+    width: 180px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: #000000 solid 1px;
+  }
